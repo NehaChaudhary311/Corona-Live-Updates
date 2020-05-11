@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 extract_contents = lambda row: [x.text.replace('\n', '') for x in row]
 URL = 'https://www.mohfw.gov.in/'
 
+#Table headers to be displayed
 TABLE_HEADERS = ['SNo', 'State', 'Indian-Confirmed',
                  'Foreign-Confirmed', 'Cured', 'Death']
 
